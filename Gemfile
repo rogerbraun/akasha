@@ -30,3 +30,12 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'pundit'
+gem 'grape'
+gem 'devise'
+gem 'roar'
+
+group :development, :test do
+  gem 'shoulda'
+  gem 'rspec-rails'
+end
